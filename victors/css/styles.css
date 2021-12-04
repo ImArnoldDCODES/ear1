@@ -1,0 +1,220 @@
+
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+logo img{
+ margin: 2.6%;
+}
+
+
+ navbar ul{
+    position: relative;
+    display: flex;
+    gap: 4px;
+    margin-top: -75px;
+   margin-left: 900px;
+}
+ navbar ul li{
+    list-style: none;
+}
+ navbar ul li a{
+    font-family: Gilroy-Black;
+    font-size: 25px;
+    display: inline-block;
+    color: black;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+text{
+    background-size: cover;
+    margin: 12%;
+    margin-top: 4%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+text h1
+{
+    font-size: 60px;
+    font-weight: 800;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+}
+text h3{
+ text-align: center;
+}
+
+second{
+   /* display: flex;
+   flex-direction: row; */
+   display: grid;
+   margin-top: 44%;
+   position: absolute;
+}
+second h1{
+    position: absolute;
+    display: flexbox;
+    margin-top: 50px;
+    margin-left: 16%;
+    font-size: 1.9em;
+    font-weight: 800;
+    word-spacing: 4px;
+}
+second img{
+    position:  relative;
+    display: flexbox;
+    margin-left: 136%; 
+    width: 94%;
+    margin-top: -56%;
+}
+second span{
+    color: rgb(74, 230, 60);
+}
+second h3{
+    font-weight: 100;
+    position:  relative;
+   margin-top: 30%;
+   font-size: 22px;
+   margin-left: 17%;
+}
+
+
+
+/* third{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 118%;
+    position: absolute;
+}
+ third h1{
+     position: absolute;
+     margin-top: -200px;
+     margin-left: 206%;
+     font-size: 1.9em;
+     font-weight: 800;
+     word-spacing: 4px;
+ }
+ third img{
+     position:  relative;
+     display: flexbox;
+     margin-left: 26%; 
+     width: 94%;
+     margin-top: -56%;
+ }
+ third span{
+     color: rgb(74, 230, 60);
+ }
+ third h3{
+     font-weight: 100;
+     position:  relative;
+    margin-top: 30%;
+    font-size: 22px;
+    margin-left: 109%;
+ } */
+ 
+.third{
+  margin-top: 100%;
+}
+ .third h1{
+    margin-top: 19%;
+} 
+.third-column{
+  float: right;
+  margin-right: 55px;
+ }
+
+ .forth-column{
+float: left;
+  }
+
+  .third img{
+    position:  relative;
+    display: flexbox;
+    margin-left: 26%; 
+    width: 94%;
+    margin-top: 16%;
+}
+
+.third span{
+    color: rgb(74, 230, 60);
+}
+
+.forth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 152%;
+}
+.forth span{
+  color: rgb(74, 230, 60);
+}
+.forth h1{
+    align-items: center;
+    font-size: 43px;
+    text-align: center;
+}
+.forth h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fifth{
+     background-color: rgb(39, 209, 39);
+    border-radius: 10px;
+    width: 64%;
+    height: 24vh;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+.fifth p{
+    margin-top: 70px;
+    position: absolute;
+    padding: 30px;
+}
+
+.fifth button {
+    color: #fff;
+  margin-left: 5%;
+  border-radius: 10px;
+  height: 66px;
+  background-color: rgb(24, 24, 24);
+}
+
+
+
+.footer{
+    background-color: rgb(28, 31, 30);
+    background-size: 200px;
+    height: 432px;
+    display: flex;
+    color: blanchedalmond;
+    align-items: center;
+    margin-top: 15pc;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.first h1{
+    padding: 15px 0;
+}
+
+.first i{
+    padding: 4px;
+    width: 80px;
+}
